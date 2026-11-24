@@ -1,0 +1,28 @@
+{
+  "name": "visualvault",
+  "version": "1.0.0",
+  "description": "High-performance crawler and downloader for Windows 10 Spotlight 4K/HD wallpapers",
+  "main": "visualvault.js",
+  "type": "module",
+  "bin": {
+    "visualvault": "./visualvault.js"
+  },
+  "scripts": {
+    "start": "node visualvault.js",
+    "test-run": "node visualvault.js -p 1 -o ./test_downloads",
+    "download:recent": "node visualvault.js -p 1-10",
+    "download:fast": "node visualvault.js --mode fast -c 8",
+    "download:landscape": "node visualvault.js --orientation landscape",
+    "download:portrait": "node visualvault.js --orientation portrait",
+    "download:all": "node visualvault.js -c 6"
+  },
+  "keywords": [
+    "windows-spotlight",
+    "wallpaper-crawler",
+    "image-downloader",
+    "spotlight-scraper",
+    "hd-wallpapers"
+  ],
+  "author": "",
+  "license": "MIT"
+}

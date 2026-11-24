@@ -1,0 +1,21 @@
+# Downloaded spotlight images and local cache
+spotlight_images/
+test_downloads/
+test_downloads_fast/
+downloads/
+
+# Temporary and partial download files
+*.part
+*.tmp
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Node / Python environment
+node_modules/
+__pycache__/
+*.pyc
+.env
